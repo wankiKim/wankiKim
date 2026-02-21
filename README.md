@@ -1,3 +1,4 @@
+<!-- wankiKim/wankiKim Profile README -->
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Kim+WanKi;AI-Driven+Full-Stack+Engineer;Building+Software+with+AI+%F0%9F%A4%96" alt="Typing SVG" />
 </h1>
