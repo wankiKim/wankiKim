@@ -14,13 +14,15 @@
 
 AI를 활용한 소프트웨어 개발의 새로운 패러다임을 실천하는 **풀스택 엔지니어 김완기**입니다.
 
-Claude, GPT-4, Gemini 등 최신 AI 도구를 개발 워크플로우에 깊이 통합하여, 기획부터 설계·구현·배포까지 전 과정에서 AI와 협업하는 방식으로 **15개 이상의 실전 프로젝트**를 구축해왔습니다. AI를 아키텍처 설계 파트너이자 코드 리뷰어로 활용하며 엔지니어링 품질을 끌어올리는 데 집중합니다.
+Claude, GPT-4, Gemini 등 최신 AI 도구를 개발 워크플로우에 깊이 통합하여, 기획부터 설계·구현·배포까지 전 과정에서 AI와 협업하는 방식으로 **20개 이상의 실전 프로젝트**를 구축해왔습니다. 최근에는 백엔드를 Go·Rust로 재플랫폼하고, 게임·커머스·임베디드 펌웨어까지 영역을 넓히고 있습니다. AI를 아키텍처 설계 파트너이자 코드 리뷰어로 활용하며 엔지니어링 품질을 끌어올리는 데 집중합니다.
 
 ---
 
 ## 🛠 Tech Stack
 
 ### Backend
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Java](https://img.shields.io/badge/Java_17/21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -63,13 +65,18 @@ Claude, GPT-4, Gemini 등 최신 AI 도구를 개발 워크플로우에 깊이 �
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| **[KoCoin](https://github.com/wankiKim)** | 17개 MSA 암호화폐 거래소 — 스팟 매칭 엔진, 선물거래, P2P OTC, 마켓메이킹 봇 | `Spring Boot` `Kafka` `AWS ECS` `Terraform` |
+| **KoCoin Exchange** | 암호화폐 거래소 — Java/Spring MSA를 **Go 13서비스 + Rust 매칭엔진 2개**로 재플랫폼, 스팟·선물·OTC·마켓메이킹 봇 | `Go` `Rust` `Next.js` `AWS ECS` `Terraform` |
+| **폼팡 (PomPang)** | 팡 스타일 아케이드 게임 — Canvas 2D 자체 엔진, iOS(App Store)·앱인토스·웹 3플랫폼 배포 | `React` `TypeScript` `Capacitor` `Express` |
+| **MOAPICK** | 의류 도매 커머스 + 관리자 백오피스 — 승인 회원 도매가 노출, 네이버 카페 자동 포스팅 | `Next.js 16` `React 19` `SQLite` |
+| **코창서버 (MooChang)** | 무협 세계관 RPG Minecraft Paper 플러그인 — 직업·문파·진영전·방송 연동 | `Kotlin` `Paper API` `Gradle` |
+| **M500 Firmware** | 커피머신 제어 보드 펌웨어 — 상용 보드 hex 역분석 후 ATmega2560 클린 재작성 | `C/C++` `AVR` `PlatformIO` |
+| **로드나인 랭킹 수집기** | STOVE 공개 API 조합으로 게임 전체 랭킹 재구성 — 수집기 + 웹 뷰어 | `Python` `SQLite` |
 | **[BUJA](https://github.com/wankiKim)** | AI 부동산 투자분석 플랫폼 — GPT-4 + Gemini 듀얼 AI 분석 시스템 | `Node.js` `Flutter` `MongoDB` `GPT-4o` |
 | **[Auto-Claude](https://github.com/wankiKim)** | 다중 에이전트 자율 코딩 프레임워크 — 12개 병렬 터미널, Git Worktree 격리 | `Python` `Electron` `Claude API` |
 | **[DDangZip](https://github.com/wankiKim)** | 부동산 급매 알림 플랫폼 — 7개 MSA, GeoJSON 위치 기반 검색 | `Spring Boot` `Flutter` `Spring Cloud` |
-| **[Zelotek](https://github.com/wankiKim)** | 레거시 PHP → 12개 MSA 마이그레이션 — Strangler & Saga Pattern | `Spring Boot` `PostgreSQL` `AWS EKS` |
+| **[Zelotek](https://github.com/wankiKim)** | 레거시 PHP → MSA 마이그레이션 — Strangler & Saga Pattern, 키오스크 원격관리 콘솔 | `Spring Boot` `PostgreSQL` `AWS EKS` |
 | **삼국지: 천하통일 온라인** | Minecraft Paper 1.21.x 국가전략 RPG — 정치 시스템, 히든 무장 30종, 시즌제 국가전 | `Java` `Paper API` `PostgreSQL` `Gradle` |
-| **[bkit-claude-code](https://github.com/anthropics/claude-code)** | AI Native 개발 방법론 — PDCA 기반 Claude Code 플러그인 | `TypeScript` `Claude API` `PDCA` |
+| **[bkit-claude-code](https://github.com/wankiKim/bkit-claude-code)** | AI Native 개발 방법론 — PDCA 기반 Claude Code 플러그인 | `TypeScript` `Claude API` `PDCA` |
 
 ---
 
