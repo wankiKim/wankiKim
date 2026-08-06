@@ -4,6 +4,9 @@
 </h1>
 
 <p align="center">
+  <a href="https://agentmichael.me"><img src="https://img.shields.io/badge/Portfolio-agentmichael.me-3B82F6?style=flat-square&logo=googlechrome&logoColor=white"/></a>
+  <a href="https://wankikim.github.io"><img src="https://img.shields.io/badge/Blog-Michael_Kim_Devlog-FF5722?style=flat-square&logo=jekyll&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/wanki-kim-8643a0a1/"><img src="https://img.shields.io/badge/LinkedIn-WanKi_Kim-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:jerry10247@gmail.com"><img src="https://img.shields.io/badge/Email-jerry10247%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/wankiKim"><img src="https://img.shields.io/badge/GitHub-wankiKim-181717?style=flat-square&logo=github&logoColor=white"/></a>
 </p>
@@ -15,6 +18,8 @@
 AI를 활용한 소프트웨어 개발의 새로운 패러다임을 실천하는 **풀스택 엔지니어 김완기**입니다.
 
 Claude, GPT-4, Gemini 등 최신 AI 도구를 개발 워크플로우에 깊이 통합하여, 기획부터 설계·구현·배포까지 전 과정에서 AI와 협업하는 방식으로 **20개 이상의 실전 프로젝트**를 구축해왔습니다. 최근에는 백엔드를 Go·Rust로 재플랫폼하고, 게임·커머스·임베디드 펌웨어까지 영역을 넓히고 있습니다. AI를 아키텍처 설계 파트너이자 코드 리뷰어로 활용하며 엔지니어링 품질을 끌어올리는 데 집중합니다.
+
+📄 상세 이력과 프로젝트는 **[포트폴리오](https://agentmichael.me)** 에, 기술 기록은 **[블로그](https://wankikim.github.io)** 에 정리하고 있습니다.
 
 ---
 
@@ -77,6 +82,23 @@ Claude, GPT-4, Gemini 등 최신 AI 도구를 개발 워크플로우에 깊이 �
 | **[Zelotek](https://github.com/wankiKim)** | 레거시 PHP → MSA 마이그레이션 — Strangler & Saga Pattern, 키오스크 원격관리 콘솔 | `Spring Boot` `PostgreSQL` `AWS EKS` |
 | **삼국지: 천하통일 온라인** | Minecraft Paper 1.21.x 국가전략 RPG — 정치 시스템, 히든 무장 30종, 시즌제 국가전 | `Java` `Paper API` `PostgreSQL` `Gradle` |
 | **[bkit-claude-code](https://github.com/wankiKim/bkit-claude-code)** | AI Native 개발 방법론 — PDCA 기반 Claude Code 플러그인 | `TypeScript` `Claude API` `PDCA` |
+
+---
+
+## 📝 Latest Posts
+
+실제로 부딪힌 문제와 그걸 어떻게 풀었는지를 기록합니다. → **[전체 글 보기](https://wankikim.github.io)**
+
+| 날짜 | 글 |
+|------|-----|
+| 2026-08-04 | [지난 반년의 기록 — 펌웨어부터 클라우드까지, 그리고 블로그 이사](https://wankikim.github.io/essay/half-year-retrospective/) |
+| 2026-08-04 | [어노테이션 하나로 ERP 화면이 나온다 — 오픈소스 Erupt를 우리 플랫폼으로 고도화하기](https://wankikim.github.io/project/hunikflow-lowcode-platform/) |
+| 2026-08-04 | [레거시 PHP 1,500파일을 15개 마이크로서비스로 — 그리고 실운영까지](https://wankikim.github.io/project/legacy-php-to-15-microservices/) |
+| 2026-08-04 | [커피머신 펌웨어를 hex 역분석으로 다시 만든 이야기 — 클럭이 16MHz가 아니었다](https://wankikim.github.io/project/coffee-machine-firmware-reverse-engineering/) |
+| 2026-08-04 | [views.py 14,000줄과의 이별 — Django 모놀리스를 Java 21 MSA로 옮기는 중입니다](https://wankikim.github.io/project/django-to-java-msa-strangler/) |
+| 2026-08-04 | [Claude Code로 거래소 만들기(3) — Java를 버리고 Go+Rust로 갈아엎은 이야기](https://wankikim.github.io/project/exchange-replatform-go-rust/) |
+| 2026-02-21 | [AI와 함께 코드를 쓴다는 것 — 15개 프로젝트를 지나며 배운 것들](https://wankikim.github.io/essay/what-i-learned-from-15-projects/) |
+| 2026-02-20 | [AI와 함께 개발하면 공수가 얼마나 줄어들까 — ERP 실전 사례](https://wankikim.github.io/ai/erp-manhour-reduction-with-ai/) |
 
 ---
 
