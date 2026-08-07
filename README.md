@@ -70,18 +70,25 @@ Claude, GPT-4, Gemini 등 최신 AI 도구를 개발 워크플로우에 깊이 �
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| **KoCoin Exchange** | 암호화폐 거래소 — Java/Spring MSA를 **Go 13서비스 + Rust 매칭엔진 2개**로 재플랫폼, 스팟·선물·OTC·마켓메이킹 봇 | `Go` `Rust` `Next.js` `AWS ECS` `Terraform` |
+| **[KoCoin Exchange](https://exchange.agentmichael.me)** 🟢 | 암호화폐 거래소 — Java/Spring MSA를 **Go 13서비스 + Rust 매칭엔진 2개**로 재플랫폼. 스팟·선물·OTC·마켓메이킹 봇, 거래·관리자·대리점 3개 웹을 EC2 한 대에 컨테이너 21개로 **라이브 운영 중** | `Go` `Rust` `Next.js 16` `Docker` `Terraform` |
+| **Mailbean** | 무인카페 플랫폼 — 제어보드 펌웨어부터 Electron 키오스크, Django 모놀리스 → Java 21 헥사고날 MSA 19모듈까지 수직 통합 | `Java 21` `Spring Cloud` `Electron` `AWS` |
+| **HunikFlow** | 오픈소스 로우코드 프레임워크 Erupt(Apache 2.0) 전면 고도화 — ERP 9모듈·MES 3모듈(OEE·SPC·MRP)·14개 LLM 프로바이더 AI 모듈 | `Java 21` `Angular 21` `PostgreSQL 17` `GraalJS` |
+| **CMS-Plug** | 멀티테넌트 결제·정산 플랫폼 — 복식 원장, 규칙 엔진 기반 이상거래탐지(FDS), HMAC 웹훅 Partner API | `Java 17` `Spring Boot 3` `QueryDSL` `Aurora PostgreSQL` |
+| **Zelotek** | 레거시 PHP 1,500파일 → 15개 Spring Boot 마이크로서비스 재구축, 실운영 완주 — Strangler & Saga Pattern, 키오스크 원격관리 콘솔 | `Spring Boot` `PostgreSQL` `AWS ECS` |
 | **폼팡 (PomPang)** | 팡 스타일 아케이드 게임 — Canvas 2D 자체 엔진, iOS(App Store)·앱인토스·웹 3플랫폼 배포 | `React` `TypeScript` `Capacitor` `Express` |
-| **MOAPICK** | 의류 도매 커머스 + 관리자 백오피스 — 승인 회원 도매가 노출, 네이버 카페 자동 포스팅 | `Next.js 16` `React 19` `SQLite` |
+| **[MOAPICK](https://moapick.shop)** 🟢 | 의류 도매 커머스 + 관리자 백오피스 — 승인 회원 도매가 노출, 네이버 카페 자동 포스팅 | `Next.js 16` `React 19` `SQLite` |
+| **[RELO](https://github.com/wankiKim/relo)** | 외국인 주거 플랫폼 — 4개 국어(KO/EN/JA/ZH), FastAPI 12개 마이크로서비스, 다중 통화 결제 | `FastAPI` `Next.js 14` `PostgreSQL` `RabbitMQ` |
+| **파진록 (GameServer)** | 오픈소스 Tibia 서버(TFS)를 계정·시즌·랭킹 백엔드로 재정의 + Unity 6 클라이언트 자체 TCP 연결, 서버 권위 치트 방지 | `Unity 6` `C#` `C++20` `Lua` `MySQL` |
 | **코창서버 (MooChang)** | 무협 세계관 RPG Minecraft Paper 플러그인 — 직업·문파·진영전·방송 연동 | `Kotlin` `Paper API` `Gradle` |
-| **M500 Firmware** | 커피머신 제어 보드 펌웨어 — 상용 보드 hex 역분석 후 ATmega2560 클린 재작성 | `C/C++` `AVR` `PlatformIO` |
+| **M500 Firmware** | 커피머신 제어 보드 펌웨어 — 상용 보드 hex 역분석 후 ATmega2560 클린 재작성, 실보드 검증 | `C/C++` `AVR` `PlatformIO` |
 | **로드나인 랭킹 수집기** | STOVE 공개 API 조합으로 게임 전체 랭킹 재구성 — 수집기 + 웹 뷰어 | `Python` `SQLite` |
-| **[BUJA](https://github.com/wankiKim)** | AI 부동산 투자분석 플랫폼 — GPT-4 + Gemini 듀얼 AI 분석 시스템 | `Node.js` `Flutter` `MongoDB` `GPT-4o` |
-| **[Auto-Claude](https://github.com/wankiKim)** | 다중 에이전트 자율 코딩 프레임워크 — 12개 병렬 터미널, Git Worktree 격리 | `Python` `Electron` `Claude API` |
-| **[DDangZip](https://github.com/wankiKim)** | 부동산 급매 알림 플랫폼 — 7개 MSA, GeoJSON 위치 기반 검색 | `Spring Boot` `Flutter` `Spring Cloud` |
-| **[Zelotek](https://github.com/wankiKim)** | 레거시 PHP → MSA 마이그레이션 — Strangler & Saga Pattern, 키오스크 원격관리 콘솔 | `Spring Boot` `PostgreSQL` `AWS EKS` |
+| **[BUJA](https://github.com/wankiKim/BUJA)** | AI 부동산 투자분석 플랫폼 — GPT-4 + Gemini 듀얼 AI 분석 시스템 | `Node.js` `Flutter` `MongoDB` `GPT-4o` |
+| **Auto-Claude** | 다중 에이전트 자율 코딩 프레임워크 — 12개 병렬 터미널, Git Worktree 격리 | `Python` `Electron` `Claude API` |
+| **DDangZip** | 부동산 급매 알림 플랫폼 — 7개 MSA, GeoJSON 위치 기반 검색 | `Spring Boot` `Flutter` `Spring Cloud` |
 | **삼국지: 천하통일 온라인** | Minecraft Paper 1.21.x 국가전략 RPG — 정치 시스템, 히든 무장 30종, 시즌제 국가전 | `Java` `Paper API` `PostgreSQL` `Gradle` |
 | **[bkit-claude-code](https://github.com/wankiKim/bkit-claude-code)** | AI Native 개발 방법론 — PDCA 기반 Claude Code 플러그인 | `TypeScript` `Claude API` `PDCA` |
+
+<sub>🟢 = 지금 접속해 볼 수 있는 서비스. 링크 없는 항목은 비공개 저장소입니다.</sub>
 
 ---
 
@@ -91,6 +98,7 @@ Claude, GPT-4, Gemini 등 최신 AI 도구를 개발 워크플로우에 깊이 �
 
 | 날짜 | 글 |
 |------|-----|
+| 2026-08-07 | [Claude Code로 거래소 만들기(4) — 내렸던 거래소를 EC2 한 대에 다시 올렸다](https://wankikim.github.io/project/exchange-single-node-redeploy/) |
 | 2026-08-04 | [지난 반년의 기록 — 펌웨어부터 클라우드까지, 그리고 블로그 이사](https://wankikim.github.io/essay/half-year-retrospective/) |
 | 2026-08-04 | [어노테이션 하나로 ERP 화면이 나온다 — 오픈소스 Erupt를 우리 플랫폼으로 고도화하기](https://wankikim.github.io/project/hunikflow-lowcode-platform/) |
 | 2026-08-04 | [레거시 PHP 1,500파일을 15개 마이크로서비스로 — 그리고 실운영까지](https://wankikim.github.io/project/legacy-php-to-15-microservices/) |
