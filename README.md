@@ -98,6 +98,7 @@ Claude, GPT-4, Gemini 등 최신 AI 도구를 개발 워크플로우에 깊이 �
 
 | 날짜 | 글 |
 |------|-----|
+| 2026-08-08 | [Claude Code로 거래소 만들기(5) — 조용히 돈이 새는 곳들](https://wankikim.github.io/project/exchange-consistency-deep-dive/) |
 | 2026-08-07 | [Claude Code로 거래소 만들기(4) — 내렸던 거래소를 EC2 한 대에 다시 올렸다](https://wankikim.github.io/project/exchange-single-node-redeploy/) |
 | 2026-08-04 | [지난 반년의 기록 — 펌웨어부터 클라우드까지, 그리고 블로그 이사](https://wankikim.github.io/essay/half-year-retrospective/) |
 | 2026-08-04 | [어노테이션 하나로 ERP 화면이 나온다 — 오픈소스 Erupt를 우리 플랫폼으로 고도화하기](https://wankikim.github.io/project/hunikflow-lowcode-platform/) |
